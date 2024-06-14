@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engine</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <script src="carousel1.js" defer></script>
+    <script src="carousel2.js" defer></script>
+    <script src="carousel3.js" defer></script>
+    <script src="carousel4.js" defer></script>
+    <script src="carousel5.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap"
+      rel="stylesheet" />
+
+
+       
+
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="logo">
+        <a href="#main">
+          <img src="assets/Logo.png" alt="logo" />
+        </a>
+      </div>
+      <div class="login">
+        <a>Sign In</a>
+        <span>or</span>
+        <a>Sign Up</a>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <div class="main" id="main">
+        <div class="navbar">
+          <div class="navbar-itens">
+            <a>Your Profile</a>
+          </div>
+          <div class="navbar-itens">
+            <a href="#featured">Featured &amp; Recommended</a>
+          </div>
+          <div class="navbar-itens">
+            <a href="#special">Special Offers</a>
+          </div>
+          <div class="navbar-itens">
+            <a href="#categories">Categories</a>
+          </div>
+          <div class="navbar-itens">
+            <a href="#news">News</a>
+          </div>
+          <div class="navbar-itens">
+            <a href="#lives">Lives</a>
+          </div>
+
+          <div class="searchbox">
+            <input type="text" placeholder="search for a game" class="input" />
+            <ion-icon name="search-circle-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="video-wrapper">
+          <video src="assets/imagens/video-bg.mp4" muted autoplay loop></video>
+        </div>
+      </div>
+    </main>
+
+    <!-- FEATURED AND RECOMMENDED -->
+    <section class="section-featured" id="featured">
+      <aside class="sidebar-left">
+        <div class="gift-img">
+          <a>
+            <img src="assets/imagens/giftcards.png" alt="gift cards" />
+          </a>
+        </div>
+        <div class="side-container">
+          <h3>
+            <a>Engine Gift Cards</a>
+          </h3>
+          <span>Give the Gift of Gaming!</span>
+        </div>
+        <div class="side-container">
+          <h3>
+            <a href="#categories">Browse by Categories</a>
+          </h3>
+          <ul>
+            <li><a>Fighting</a></li>
+            <li><a>Free to Play</a></li>
+            <li><a>Horror</a></li>
+            <li><a>Action</a></li>
+            <li><a>All Sports</a></li>
+            <li><a>Puzzle</a></li>
+            <li><a>Anime</a></li>
+            <li><a>Rougue-Like</a></li>
+          </ul>
+        </div>
+        <div class="side-container">
+          <h3>
+            <a href="#under20">Games Under R$20</a>
+          </h3>
+          <ul>
+            <li><a>Fallout 4</a></li>
+            <li><a>Fallout 3</a></li>
+            <li><a>Farcry 4</a></li>
+            <li><a>Doom</a></li>
+          </ul>
+        </div>
+        <div class="side-container">
+          <h3>
+            <a href="#vr">Popular Vr Games</a>
+          </h3>
+          <ul>
+            <li><a>Further</a></li>
+            <li><a>Hellsweeper</a></li>
+            <li><a>Five Nights at Freedys</a></li>
+            <li><a>Blood Trail</a></li>
+          </ul>
+        </div>
+        <div class="side-container">
+          <h3>
+            <a href="#lives">Live Steaming Now! </a>
+          </h3>
+        </div>
+      </aside>
+
+      <!-- SIDEBAR RIGHT -->
+
+      <aside class="sidebar-right">
+        <div class="title-news">
+          <h3>Most Recent News</h3>
+          <div>
+            <img src="assets/imagens/arrowdown.gif" alt="" />
+          </div>
+        </div>
+        <div class="sidebar-news">
+          <a>
+            <div>
+              <span
+                >Everything we know about the next The Witcher game so far</span
+              >
+            </div>
+            <div>
+              <img src="assets/imagens/news1.png" alt="" />
+            </div>
+          </a>
+        </div>
+        <div class="sidebar-news">
+          <a>
+            <div>
+              <span>Our top picks for co-op games for the year of 2024!</span>
+            </div>
+            <div>
+              <img src="assets/imagens/news2.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+        <div class="sidebar-news">
+          <a>
+            <div>
+              <span
+                >Victor Faria talks about his success after completing the
+                Engine Project</span
+              >
+            </div>
+            <div>
+              <img src="assets/imagens/Engine.png" alt="" />
+            </div>
+          </a>
+        </div>
+        <div class="sidebar-news">
+          <a>
+            <div>
+              <span>Dragon's Dogma 2' trickster built for beginners</span>
+            </div>
+            <div>
+              <img src="assets/imagens/news4.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="sidebar-news">
+          <a>
+            <div>
+              <span>Every Major Video Game Release Coming Soon For PC</span>
+            </div>
+            <div>
+              <img src="assets/imagens/news5.png" alt="" />
+            </div>
+          </a>
+        </div>
+        <div class="sidebar-news">
+          <a>
+            <div>
+              <span>5 reasons why: You should play The Talos Principle 2</span>
+            </div>
+            <div>
+              <img src="assets/imagens/news6.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+      </aside>
+      <div class="title-wrapper">
+        <h1>Featured &amp; Recommended</h1>
+      </div>
+      <div class="carousel-container-featured">
+        <button class="prev-featured">&#10094;</button>
+        <button class="next-featured">&#10095;</button>
+
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="ind"
+            data-bs-slide-to="0"
+            aria-label="Slide 1"
+            class="indicator active"></button>
+
+          <button
+            type="button"
+            data-bs-target="ind"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class="indicator"></button>
+
+          <button
+            type="button"
+            data-bs-target="ind"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class="indicator"></button>
+
+          <button
+            type="button"
+            data-bs-target="ind"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+            class="indicator"></button>
+
+          <button
+            type="button"
+            data-bs-target="ind"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+            class="indicator"></button>
+
+          <button
+            type="button"
+            data-bs-target="ind"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+            class="indicator"></button>
+
+          <button
+            type="button"
+            data-bs-target="ind"
+            data-bs-slide-to="6"
+            aria-label="Slide 7"
+            class="indicator"></button>
+        </div>
+
+        <div class="carousel-content-featured">
+          <div class="carousel-item-featured">
+            <img
+              src="assets/imagens/featured (1).png"
+              alt=""
+              class="carousel-img" />
+          </div>
+          <div class="carousel-item-featured">
+            <img
+              src="assets/imagens/featured (2).png"
+              alt=""
+              class="carousel-img" />
+          </div>
+          <div class="carousel-item-featured">
+            <img
+              src="assets/imagens/featured (3).png"
+              alt=""
+              class="carousel-img" />
+          </div>
+          <div class="carousel-item-featured">
+            <img
+              src="assets/imagens/featured (4).png"
+              alt=""
+              class="carousel-img" />
+          </div>
+          <div class="carousel-item-featured">
+            <img
+              src="assets/imagens/featured (8).png"
+              alt=""
+              class="carousel-img" />
+          </div>
+          <div class="carousel-item-featured">
+            <img
+              src="assets/imagens/featured (6).png"
+              alt=""
+              class="carousel-img" />
+          </div>
+          <div class="carousel-item-featured">
+            <img
+              src="assets/imagens/featured (9).png"
+              alt=""
+              class="carousel-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPECIAL OFFERS -->
+
+    <section class="section-special" id="special">
+      <div class="title-wrapper">
+        <h1>Special Offers</h1>
+      </div>
+
+      <div class="carousel-container-special">
+        <button class="prev-special">&#10094;</button>
+        <button class="next-special">&#10095;</button>
+
+        <div class="carousel-content-special">
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (1).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (2).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (3).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (4).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (5).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (6).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (7).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (8).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (9).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (10).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (11).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (12).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (13).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (14).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (15).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-special">
+            <img src="assets/imagens/special (16).png" alt="Imagem 1" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BROWSE -->
+
+    <section class="section-browse">
+      <div class="title-wrapper">
+        <h1>Browse through Engine</h1>
+      </div>
+      <div class="browse-container">
+        <div class="browse-btn">
+          <button>New Releases</button>
+        </div>
+        <div class="browse-btn">
+          <button>Specials</button>
+        </div>
+        <div class="browse-btn">
+          <button>Free Games</button>
+        </div>
+        <div class="browse-btn">
+          <button>By User Tags</button>
+        </div>
+      </div>
+    </section>
+    <!-- TABS -->
+
+    <section class="section-tabs" id="tabs">
+      <div class="list-tabs">
+        <ul>
+          <a><li>New and Trending</li></a>
+          <a><li>Top Sellers</li></a>
+          <a><li>Popular Upcoming</li></a>
+          <a><li>Specials</li></a>
+        </ul>
+      </div>
+      <div class="container-imagens-tabs">
+        <ul>
+          <li>
+            <a class="primary">
+              <img src="assets/imagens/tab (1).png" alt="" />
+              <span class="secondary">
+                <img src="assets/imagens/tab 1-1.png" alt="" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="primary">
+              <img src="assets/imagens/tab (2).png" alt="" />
+              <span class="secondary">
+                <img src="assets/imagens/tab 2-2.png" alt="" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="primary">
+              <img src="assets/imagens/tab (3).png" alt="" />
+              <span class="secondary">
+                <img src="assets/imagens/tab 3-3.png" alt="" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="primary">
+              <img src="assets/imagens/tab (4).png" alt="" />
+              <span class="secondary">
+                <img src="assets/imagens/tab 4-4.png" alt="" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="primary">
+              <img src="assets/imagens/tab (5).png" alt="" />
+              <span class="secondary">
+                <img src="assets/imagens/tab 5-5.png" alt="" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="primary">
+              <img src="assets/imagens/tab (6).png" alt="" />
+              <span class="secondary">
+                <img src="assets/imagens/tab 6-6.png" alt="" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="primary">
+              <img src="assets/imagens/tab (7).png" alt="" />
+              <span class="secondary">
+                <img src="assets/imagens/tab 7-7.png" alt="" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="primary">
+              <img src="assets/imagens/tab (8).png" alt="" />
+              <span class="secondary">
+                <img src="assets/imagens/tab 8-8.png" alt="" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="primary">
+              <img src="assets/imagens/tab (9).png" alt="" />
+              <span class="secondary">
+                <img src="assets/imagens/tab 9-9.png" alt="" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="primary">
+              <img src="assets/imagens/tab (10).png" alt="" />
+              <span class="secondary">
+                <img src="assets/imagens/tab 10-10.png" alt="" />
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+
+    <section class="section-category" id="categories">
+      <div class="title-wrapper">
+        <h1>Browse by Category</h1>
+      </div>
+      <div class="carousel-container-category">
+        <button class="prev-category">&#10094;</button>
+        <button class="next-category">&#10095;</button>
+
+        <div class="carousel-content-category">
+          <div class="carousel-item-category">
+            <img src="assets/imagens/categories (1).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (2).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (3).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (4).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (5).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (6).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (7).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (8).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (9).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (10).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (11).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (12).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (13).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (14).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (15).png"
+              alt="imagem-categoria" />
+          </div>
+
+          <div class="carousel-item-category">
+            <img
+              src="assets/imagens/categories (16).png"
+              alt="imagem-categoria" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAMES UNDER 20 -->
+    <section class="section-under20" id="under20">
+      <div class="title-wrapper">
+        <h1>Games Under R$20</h1>
+      </div>
+      <div class="carousel-container-under20">
+        <button class="prev-under20">&#10094;</button>
+        <button class="next-under20">&#10095;</button>
+
+        <div class="carousel-content-under20">
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (1).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (2).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (3).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (4).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (5).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (6).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (7).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (8).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (9).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (10).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (11).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (12).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (13).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (14).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (15).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-under20">
+            <img src="assets/imagens/20 (16).png" alt="Imagem 1" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCOVERY QUEUE -->
+    <section class="section-discovery" id="discovery">
+      <div class="title-wrapper">
+        <h1>Your Discovery Queue</h1>
+        <img src="assets/imagens/characters.png" alt="" />
+      </div>
+
+      <button class="btn-queue">
+        <span class="text">Click here to begin your discovery queue!</span>
+      </button>
+    </section>
+
+    <!-- POPULAR VR -->
+    <section class="section-vr" id="vr">
+      <div class="title-wrapper">
+        <h1>Popular VR Games</h1>
+      </div>
+      <div class="carousel-container-vr">
+        <button class="prev-vr">&#10094;</button>
+        <button class="next-vr">&#10095;</button>
+
+        <div class="carousel-content-vr">
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (1).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (2).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (3).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (4).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (5).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (6).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (7).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (8).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (9).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (10).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (11).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (12).png" alt="Imagem 1" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (13).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (14).png" alt="Imagem 2" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (15).png" alt="Imagem 3" />
+          </div>
+
+          <div class="carousel-item-vr">
+            <img src="assets/imagens/vr (16).png" alt="Imagem 1" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+
+    <section class="section-news" id="news">
+      <div class="container-area-news">
+        <div class="title-wrapper">
+          <div>
+            <h1>Recent News</h1>
+          </div>
+        </div>
+        <div class="container-news">
+          <a>
+            <div class="article-news">
+              <div class="preview">
+                <img src="assets/imagens/news1.png" alt="news1" />
+              </div>
+              <div>
+                <h3>
+                  Everything we know about the next The Witcher game so far
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a
+            ><div class="article-news">
+              <div class="preview">
+                <img src="assets/imagens/news2.jpg" alt="news2" />
+              </div>
+              <div>
+                <h3>Our top picks for co-op games for the year of 2024!</h3>
+              </div>
+            </div>
+          </a>
+          <a
+            ><div class="article-news">
+              <div class="preview">
+                <img src="assets/imagens/Engine.png" alt="news3" />
+              </div>
+              <div>
+                <h3>
+                  Victor Faria talks about his success after completing the
+                  Engine Project
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a
+            ><div class="article-news">
+              <div class="preview">
+                <img src="assets/imagens/news4.jpg" alt="news4" />
+              </div>
+              <div>
+                <h3>Dragon's Dogma 2' trickster built for starters</h3>
+              </div>
+            </div>
+          </a>
+          <a
+            ><div class="article-news">
+              <div class="preview">
+                <img src="assets/imagens/news5.png" alt="news5" />
+              </div>
+              <div>
+                <h3>Every Major Video Game Release Coming Soon For PC</h3>
+              </div>
+            </div>
+          </a>
+          <a
+            ><div class="article-news">
+              <div class="preview">
+                <img src="assets/imagens/news6.jpg" alt="news6" />
+              </div>
+              <div>
+                <h3>5 reasons why: You should play The Talos Principle 2</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <a>
+          <div class="showmore">
+            <span>Show More</span>
+            <span>&#129175;</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- LIVES -->
+
+    <section class="section-lives" id="lives">
+      <div class="container-lives">
+        <div class="title-wrapper">
+          <div>
+            <h1>Live Streaming Now!</h1>
+          </div>
+        </div>
+        <div class="lives">
+          <a>
+            <img src="assets/imagens/live (1).png" alt="" />
+          </a>
+          <a>
+            <img src="assets/imagens/live (2).png" alt="" />
+          </a>
+          <a>
+            <img src="./assets/imagens/live (3).png" alt="" />
+          </a>
+          <a>
+            <img src="assets/imagens/live (4).png" alt="" />
+          </a>
+          <a>
+            <img src="assets/imagens/live (5).png" alt="" />
+          </a>
+          <a>
+            <img src="assets/imagens/live (6).png" alt="" />
+          </a>
+        </div>
+        <a>
+          <div class="showmore">
+            <span>Show More </span>
+            <span>&#129175;</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <script>
+      window.addEventListener("load", function () {
+        const preloader = document.getElementById("loading");
+        preloader.classList.add("loaded");
+        preloader.style.animation = "opacity 1.5s forwards";
+        setTimeout(function () {
+          preloader.style.display = "none";
+        }, 1500);
+      });
+    </script>
+  </body>
+  <div id="loading">
+    <img src="assets/Logo.png" id="loading-image" />
+  </div>
+</html>
