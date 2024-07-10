@@ -231,9 +231,7 @@ header {
   width: 80%;
   
 }
-.logo:hover {
-  transform: scale(1.1);
-}
+
 .login {
   display: flex;
   justify-content: center;
